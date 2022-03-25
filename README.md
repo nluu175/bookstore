@@ -6,7 +6,7 @@ Plenty of tech books.
 
 - `docker`
 - `docker compose` that supports version '2.4'
-
+- To run `JMeter HTML Generator` tool, you must use `Java` < version 17.
 # How to run locally
 
 To start the project locally, run:
