@@ -6,7 +6,15 @@ Plenty of tech books.
 
 - `docker`
 - `docker compose` that supports version '2.4'
-- To run `JMeter HTML Generator` tool, you must use `Java` < version 17.
+- To run `JMeter HTML Generator` tool, you must use `Java` < version 17 (or 16 specifically).
+
+# Change Java version on Mac.
+
+- Change directory to the folder you have `JMeter`.
+
+- Check the list of version on your machine `/usr/libexec/java_home -V`.
+
+- Temporarily change Java version using `export JAVA_HOME=`/usr/libexec/java_home -v <version>``. This only has effect on that instance of cell you run this command.
 # How to run locally
 
 To start the project locally, run:
